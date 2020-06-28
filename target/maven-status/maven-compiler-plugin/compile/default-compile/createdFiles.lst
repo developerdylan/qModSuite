@@ -1,0 +1,10 @@
+com\ddylan\qmodsuite\qModSuite.class
+com\ddylan\qmodsuite\staff\inspector\PlayerInspectorMenu$DisplayButton.class
+com\ddylan\qmodsuite\staff\inspector\PlayerInspectorListener.class
+com\ddylan\qmodsuite\staff\mode\StaffModeCommand.class
+com\ddylan\qmodsuite\helpop\HelpopHandler.class
+com\ddylan\qmodsuite\staff\inspector\PlayerInspectorMenu.class
+com\ddylan\qmodsuite\staff\inspector\PlayerInspector.class
+com\ddylan\qmodsuite\staff\util\StaffUtil.class
+com\ddylan\qmodsuite\staff\mode\StaffModeHandler.class
+com\ddylan\qmodsuite\staff\mode\StaffModeListener.class
