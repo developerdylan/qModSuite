@@ -1,8 +1,8 @@
 package com.ddylan.qmodsuite.staff.inspector;
 
-import com.ddylan.xlib.menu.Button;
-import com.ddylan.xlib.menu.Menu;
-import com.ddylan.xlib.util.Color;
+import com.ddylan.library.menu.Button;
+import com.ddylan.library.menu.Menu;
+import com.ddylan.library.util.Color;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import org.bukkit.entity.Player;

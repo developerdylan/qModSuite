@@ -1,6 +1,6 @@
 package com.ddylan.qmodsuite.staff.mode;
 
-import com.ddylan.xlib.util.Color;
+import com.ddylan.library.util.Color;
 import org.bukkit.entity.Player;
 import org.bukkit.event.Event;
 import org.bukkit.event.EventHandler;

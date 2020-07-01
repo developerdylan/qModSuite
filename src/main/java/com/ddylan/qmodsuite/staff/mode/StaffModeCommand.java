@@ -1,7 +1,7 @@
 package com.ddylan.qmodsuite.staff.mode;
 
 import com.ddylan.qmodsuite.qModSuite;
-import com.ddylan.xlib.command.Command;
+import com.ddylan.library.command.Command;
 import org.bukkit.entity.Player;
 
 public class StaffModeCommand {

@@ -1,7 +1,7 @@
 package com.ddylan.qmodsuite;
 
 import com.ddylan.qmodsuite.staff.mode.StaffModeHandler;
-import com.ddylan.xlib.Library;
+import com.ddylan.library.LibraryPlugin;
 import com.lunarclient.bukkitapi.LunarClientAPI;
 import lombok.Getter;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -14,14 +14,14 @@ public class qModSuite extends JavaPlugin {
     private StaffModeHandler staffModeHandler;
 
     private LunarClientAPI lunarAPI;
-    private Library Library;
+    private LibraryPlugin LibraryPlugin;
 
     @Override
     public void onEnable() {
         instance = this;
 
         lunarAPI = (LunarClientAPI) getServer().getPluginManager().getPlugin("LunarClient-API");
-        Library = (Library) getServer().getPluginManager().getPlugin("xLib");
+        LibraryPlugin = (LibraryPlugin) getServer().getPluginManager().getPlugin("Library");
 
         staffModeHandler = new StaffModeHandler(instance);
     }

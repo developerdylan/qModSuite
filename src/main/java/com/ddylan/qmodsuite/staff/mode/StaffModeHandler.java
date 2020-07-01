@@ -2,9 +2,9 @@ package com.ddylan.qmodsuite.staff.mode;
 
 import com.ddylan.qmodsuite.qModSuite;
 import com.ddylan.qmodsuite.staff.inspector.PlayerInspectorListener;
-import com.ddylan.xlib.util.Color;
-import com.ddylan.xlib.util.ItemBuilder;
-import com.ddylan.xlib.visibility.VisibilityAction;
+import com.ddylan.library.util.Color;
+import com.ddylan.library.util.ItemBuilder;
+import com.ddylan.library.visibility.VisibilityAction;
 import com.lunarclient.bukkitapi.object.LCNotification;
 import org.bukkit.Bukkit;
 import org.bukkit.GameMode;
@@ -35,9 +35,9 @@ public class StaffModeHandler {
         modSuite.getServer().getPluginManager().registerEvents(new StaffModeListener(this), modSuite);
         modSuite.getServer().getPluginManager().registerEvents(new PlayerInspectorListener(this), modSuite);
 
-        modSuite.getLibrary().getCommandHandler().registerClass(StaffModeCommand.class);
+        modSuite.getLibraryPlugin().getCommandHandler().registerClass(StaffModeCommand.class);
 
-        modSuite.getLibrary().getVisibilityHandler().registerHandler("Staff-Mode", (paramPlayer1, paramPlayer2) -> {
+        modSuite.getLibraryPlugin().getVisibilityHandler().registerHandler("Staff-Mode", (paramPlayer1, paramPlayer2) -> {
             if (contains(paramPlayer1) && !paramPlayer2.hasPermission("qmodsuite.staff") && !visible.contains(paramPlayer1.getUniqueId())) {
                 return VisibilityAction.HIDE;
             } else {
