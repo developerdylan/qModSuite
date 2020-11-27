@@ -2,4 +2,4 @@ name: qModSuite
 main: com.ddylan.qmodsuite.qModSuite
 version: ${project.version}
 author: ${project.author}
-depend: [LunarClient-API, xLib]
+depend: [LunarClient-API, Library]
